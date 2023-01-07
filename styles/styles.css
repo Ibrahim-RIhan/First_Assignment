@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.main-header {
+    background-image: url(../images/banner/banner1.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.head {
+    position: absolute;
+    top: 220px;
+    right: 250px;
+}
+
+.head-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 24px;
+    text-align: right;
+
+}
+
+.head-desc {
+    font-family: 'Work Sans', sans-serif;
+    color: gray;
+    margin-bottom: 32px;
+    text-align: right;
+
+}
+
+.btn-primary {
+    background-color: cadetblue;
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 64px;
+    width: 160px;
+    position: absolute;
+    top: 320px;
+    right: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Main Body  */
+/* Section One  */
+.section-one {
+    display: flex;
+    margin-left: 206px;
+}
+
+.person {
+    margin-top: 131px;
+}
+
+
+.section-one-desc {
+    margin-top: 370px;
+    margin-left: 87px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.section-one-title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.section-one-para {
+    margin-bottom: 16px;
+    color: gray
+}
+
+.section-one-list {
+    font-size: 20px;
+    color: gray;
+}
+
+/* Section Two  */
+.plans {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.section-two-plans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 120px;
+}
+
+.flex-item:hover {
+    background-color: tomato;
+    display: block;
+    padding: 5px 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+
+}
+
+.plan-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* Section three  */
+
+/* .section-three {
+    background-image: linear-gradient(to right, red , rgba(255, 255, 0, 0.884));
+   
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 450px;
+} */
+
+
+
+
+#image-two {
+    text-align: center;
+    background-image: url(../images/watch.png);
+    left: 290px;
+    background-repeat: no-repeat;
+    position: absolute;
+
+
+}
+
+.section-three-desc {
+    text-align: left;
+    margin-left: 100px;
+    top: 100px;
+    position: absolute;
+   
+
+}
+
+.section-three-title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-second {
+    background-color: #F15B22;
+    color: white;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 64px;
+    width: 160px;
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+}
