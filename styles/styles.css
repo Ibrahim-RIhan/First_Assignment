@@ -61,7 +61,7 @@ body {
 
 /* Main Body  */
 /* Section One  */
-.section-one {
+.failures {
     display: flex;
     margin-left: 206px;
 }
@@ -71,25 +71,25 @@ body {
 }
 
 
-.section-one-desc {
+.failures-desc {
     margin-top: 370px;
     margin-left: 87px;
     font-family: 'Work Sans', sans-serif;
 
 }
 
-.section-one-title {
+.failures-title {
     margin-bottom: 24px;
     font-weight: 700;
     font-size: 50px;
 }
 
-.section-one-para {
+.failures-para {
     margin-bottom: 16px;
     color: gray
 }
 
-.section-one-list {
+.failures-list {
     font-size: 20px;
     color: gray;
 }
@@ -136,7 +136,7 @@ body {
     margin-bottom: 50px;
 }
 
-.section-two-plans {
+.plan-section {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
@@ -161,7 +161,7 @@ body {
 }
 
 /* Section three  */
-.section-three{
+.gradient-section{
     margin-bottom: 500px;
 }
 
@@ -175,7 +175,7 @@ body {
 
 }
 
-.section-three-desc {
+.gradient-sec-desc {
     text-align: left;
     margin-left: 64px;
     top: 59px;
@@ -184,7 +184,7 @@ body {
 
 }
 
-.section-three-title {
+.gradient-section-title {
     font-size: 40px;
     font-weight: 700;
     font-family: 'Work Sans', sans-serif;
@@ -206,7 +206,7 @@ body {
     margin-top: 20px;
 }
 /* Footer  */
-.section-four{
+.footer-section{
     background-color: black;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -223,7 +223,7 @@ body {
     margin-bottom: 16px;
 
 }
-.image-container{
+.image-footer{
     display: flex;
 margin-bottom: 24px;
 
