@@ -56,6 +56,7 @@ body {
     top: 320px;
     right: 0px;
     font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
 }
 
 /* Main Body  */
@@ -128,19 +129,9 @@ body {
 }
 
 /* Section three  */
-
-/* .section-three {
-    background-image: linear-gradient(to right, red , rgba(255, 255, 0, 0.884));
-   
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 1140px;
-    height: 300px;
-    left: 450px;
-} */
-
-
-
+.section-three{
+    margin-bottom: 500px;
+}
 
 #image-two {
     text-align: center;
@@ -154,8 +145,8 @@ body {
 
 .section-three-desc {
     text-align: left;
-    margin-left: 100px;
-    top: 100px;
+    margin-left: 64px;
+    top: 59px;
     position: absolute;
    
 
@@ -165,11 +156,12 @@ body {
     font-size: 40px;
     font-weight: 700;
     font-family: 'Work Sans', sans-serif;
+    color: white;
 }
 
 .btn-second {
-    background-color: #F15B22;
-    color: white;
+    background-color: white;
+    color: #F15B22;
     font-weight: 700;
     border: 0;
     border-radius: 5px;
@@ -180,4 +172,54 @@ body {
     position: absolute;
     font-family: 'Work Sans', sans-serif;
     margin-top: 20px;
+}
+/* Footer  */
+.section-four{
+    background-color: black;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 370px;
+    width: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Work Sans', sans-serif;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+
+}
+.image-container{
+    display: flex;
+margin-bottom: 24px;
+
+}
+.footer-desc{
+    margin-left: 290px;
+    margin-top: 100px;
+}
+.footer-btn{
+    margin-top: 120px;
+    margin-right: 290px;
+    text-align: left;
+}
+.btn-submit{
+    background-color: white;
+    color: #F15B22;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 64px;
+    width: 160px;
+}
+#email{
+    background-color: black;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-left: 20px;
 }
