@@ -43,7 +43,7 @@ body {
 
 }
 
-.btn-primary {
+.btn-first {
     background-color: cadetblue;
     color: rgb(255, 0, 0);
     font-weight: 700;
@@ -60,7 +60,7 @@ body {
 }
 
 /* Main Body  */
-/* Section One  */
+/* Section Failures */
 .failures {
     display: flex;
     margin-left: 206px;
@@ -70,12 +70,10 @@ body {
     margin-top: 131px;
 }
 
-
 .failures-desc {
     margin-top: 370px;
     margin-left: 87px;
     font-family: 'Work Sans', sans-serif;
-
 }
 
 .failures-title {
@@ -93,28 +91,29 @@ body {
     font-size: 20px;
     color: gray;
 }
+
 /* About Me */
-.about-me{
+.about-me {
     text-align: center;
     font-family: 'Work Sans', sans-serif;
-    margin-top: 70px;
-
+    margin-top: 100px;
 }
+
 .about-me-container {
     display: flex;
     gap: 80px;
     margin-top: 40px;
     margin-left: 400px;
     text-align: center;
-  
-    
 }
-.about-info{
+
+.about-info {
     border: 1px solid lightgreen;
     border-radius: 5px;
     padding: 15px;
     background-color: lightgreen;
 }
+
 .about-me-title {
     font-size: 20px;
     color: #757575;
@@ -126,7 +125,7 @@ body {
     color: #474747;
 }
 
-/* Section Two  */
+/* Section Plans  */
 .plans {
     text-align: center;
     font-weight: 700;
@@ -152,7 +151,6 @@ body {
     height: 200px;
     width: 200px;
     border-radius: 5px;
-
 }
 
 .plan-title {
@@ -160,8 +158,8 @@ body {
     font-weight: 700;
 }
 
-/* Section three  */
-.gradient-section{
+/* Section Gradient  */
+.gradient-section {
     margin-bottom: 500px;
 }
 
@@ -171,8 +169,6 @@ body {
     left: 290px;
     background-repeat: no-repeat;
     position: absolute;
-
-
 }
 
 .gradient-sec-desc {
@@ -180,8 +176,6 @@ body {
     margin-left: 64px;
     top: 59px;
     position: absolute;
-   
-
 }
 
 .gradient-section-title {
@@ -205,8 +199,9 @@ body {
     font-family: 'Work Sans', sans-serif;
     margin-top: 20px;
 }
+
 /* Footer  */
-.footer-section{
+.footer-section {
     background-color: black;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -217,27 +212,30 @@ body {
     justify-content: space-between;
     font-family: 'Work Sans', sans-serif;
 }
-.footer-title{
+
+.footer-title {
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 16px;
-
 }
-.image-footer{
+
+.image-footer {
     display: flex;
-margin-bottom: 24px;
-
+    margin-bottom: 24px;
 }
-.footer-desc{
+
+.footer-desc {
     margin-left: 290px;
     margin-top: 100px;
 }
-.footer-btn{
+
+.footer-btn {
     margin-top: 120px;
     margin-right: 290px;
     text-align: left;
 }
-.btn-submit{
+
+.btn-submit {
     background-color: white;
     color: #F15B22;
     font-weight: 700;
@@ -247,7 +245,8 @@ margin-bottom: 24px;
     height: 64px;
     width: 160px;
 }
-#email{
+
+#email {
     background-color: black;
     height: 50px;
     width: 300px;
